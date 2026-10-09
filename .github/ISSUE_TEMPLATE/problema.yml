@@ -1,0 +1,26 @@
+name: Relatar um problema
+description: Algo não funcionou como deveria
+labels: ["problema"]
+body:
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu?
+      description: Conte o que você fez, o que esperava e o que aconteceu.
+    validations:
+      required: true
+  - type: input
+    id: programa
+    attributes:
+      label: Programa envolvido
+      description: Se o problema foi ao desinstalar algo, qual programa?
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do Vassoura e do Windows
+      placeholder: "Vassoura 1.0.0, Windows 11 24H2"
+  - type: dropdown
+    id: plano
+    attributes:
+      label: Plano
+      options: ["Grátis", "Pro Anual", "Pro Vitalício"]
