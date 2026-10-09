@@ -1,66 +1,68 @@
-<p align="center"><img src="media/icon.png" width="96" alt="Vassoura"></p>
+<p align="center"><img src="media/icon.png" width="96" alt="Coube Desinstalador"></p>
 
-<h1 align="center">Vassoura</h1>
+<h1 align="center">Coube Desinstalador</h1>
 <p align="center"><b>Desinstalou? Então some de verdade.</b><br>
-Desinstalador para Windows que remove o programa e varre tudo o que ele deixa para trás.</p>
+Vasculha o computador inteiro, mostra o tamanho real de cada programa e remove tudo o que eles deixam para trás.<br>
+Primeiro app da <b>Coube Solutions</b>.</p>
 
 <p align="center">
-  <a href="https://vassoura-app.netlify.app/#baixar"><b>⬇ Baixar grátis</b></a> ·
-  <a href="https://vassoura-app.netlify.app/#precos">Planos</a> ·
-  <a href="https://github.com/srlorenzos/vassoura/issues/new/choose">Suporte</a> ·
+  <a href="https://github.com/srlorenzos/coube-desinstalador/releases/latest"><b>⬇ Baixar grátis</b></a> ·
+  <a href="https://coube-solutions.netlify.app/#precos">Planos</a> ·
+  <a href="https://github.com/srlorenzos/coube-desinstalador/issues/new/choose">Suporte</a> ·
   <a href="CHANGELOG.md">Novidades</a>
 </p>
 
 ![Tela principal](media/programs.png)
 
-> Esta é a página pública do Vassoura: demonstração, novidades e suporte. O código-fonte do app é privado.
+> Esta é a página pública do Coube Desinstalador: demonstração, novidades e suporte. O código-fonte é privado. Antes ele se chamava **Vassoura**.
 
 ## O que ele faz
 
 | | |
 |---|---|
+| 🔎 **Varredura completa** | Encontra programas do Windows, Steam, Epic, Xbox e da Store, mede o tamanho real de cada pasta e mostra o último uso. |
+| ◔ **Análise de disco** | Para onde foi o espaço de cada unidade: programas, jogos, usuários, Windows e arquivos do sistema, pasta por pasta. |
 | 🧹 **Limpeza de sobras** | Depois de desinstalar, procura pastas, atalhos e registros que ficaram para trás e mostra tudo antes de apagar. |
-| 🛟 **Seguro por padrão** | Ponto de restauração antes de cada remoção, arquivos vão para a Lixeira e o registro ganha backup `.reg`. |
-| 📦 **Desinstalação em lote** `PRO` | Marque vários programas e remova todos de uma vez, em modo silencioso quando possível. |
-| 💥 **Remoção forçada** `PRO` | Para programas sem desinstalador ou com desinstalador quebrado. |
-| ⟳ **Atualizador** `PRO` | Encontra versões novas dos seus programas e atualiza com um clique. |
-| ⚡ **Inicialização e apps** | Desliga o que abre com o Windows e remove apps da Microsoft Store que vieram de fábrica. |
+| ⌧ **Não registrados e sobras antigas** | Programas copiados sem instalador e dados de programas que já foram removidos. |
+| 🛟 **Seguro por padrão** | Ponto de restauração antes, arquivos vão para a Lixeira e o registro ganha backup `.reg`. |
+| 📦 **Lote, forçada e atualizador** `PRO` | Remova vários de uma vez, force os teimosos e mantenha tudo atualizado. |
+
+### Análise de disco
+![Análise de disco](media/disk.png)
 
 ### Sobras encontradas depois de desinstalar
 ![Sobras](media/leftovers.png)
 
-### Desinstalação em lote
-![Lote](media/batch.png)
+### Não registrados e sobras antigas
+![Não registrados](media/loose.png)
 
-### Atualizador, inicialização e apps do Windows
 <p>
-  <img src="media/updates.png" width="32%" alt="Atualizador">
-  <img src="media/startup.png" width="32%" alt="Inicialização">
-  <img src="media/apps.png" width="32%" alt="Apps do Windows">
+  <img src="media/scan.png" width="49%" alt="Varredura completa">
+  <img src="media/updates.png" width="49%" alt="Atualizador">
 </p>
 
 *As capturas usam o modo demonstração, com programas fictícios.*
 
 ## Planos
 
-| | Grátis | Pro Anual | Pro Vitalício |
+| | Grátis | Coube Pro Anual | Coube Pro Vitalício |
 |---|:-:|:-:|:-:|
 | Preço | R$ 0 | R$ 39,90/ano | R$ 89,90 uma vez |
-| Desinstalar + varredura básica | ✓ | ✓ | ✓ |
-| Varredura profunda (AppData, ProgramData, registro) | – | ✓ | ✓ |
-| Desinstalação em lote | – | ✓ | ✓ |
-| Remoção forçada | – | ✓ | ✓ |
+| Desinstalar + sobras básicas | ✓ | ✓ | ✓ |
+| Varredura completa e análise de disco | ✓ | ✓ | ✓ |
+| Sobras profundas (AppData, ProgramData, registro) | – | ✓ | ✓ |
+| Desinstalação em lote e remoção forçada | – | ✓ | ✓ |
+| Remover não registrados e sobras antigas | – | ✓ | ✓ |
 | Atualizador de programas | – | ✓ | ✓ |
+| Todos os próximos apps Coube | – | ✓ | ✓ |
 | Computadores | ilimitado | 3 | 5 |
-
-Compre em **[vassoura-app.netlify.app](https://vassoura-app.netlify.app/#precos)**, entre no app com o mesmo e-mail e clique em *Atualizar licença*.
 
 ## Requisitos
 
-Windows 10 ou 11, 64 bits. O app pede permissão de administrador porque precisa disso para remover programas instalados para todos os usuários.
+Windows 10 ou 11, 64 bits. O app pede permissão de administrador, porque precisa dela para vasculhar o disco inteiro e remover programas instalados para todos os usuários.
 
-Na primeira execução, o Windows pode mostrar o aviso *"O Windows protegeu o computador"*. Clique em **Mais informações › Executar assim mesmo**.
+Na primeira execução, o Windows pode mostrar *"O Windows protegeu o computador"*. Clique em **Mais informações › Executar assim mesmo**.
 
 ## Suporte
 
-Achou um problema ou tem uma ideia? [Abra uma issue](https://github.com/srlorenzos/vassoura/issues/new/choose).
+Achou um problema ou tem uma ideia? [Abra uma issue](https://github.com/srlorenzos/coube-desinstalador/issues/new/choose).
