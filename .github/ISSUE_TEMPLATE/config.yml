@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Compras, reembolso e conta
-    url: https://coube-solutions.netlify.app/conta.html
+    url: https://coube-solutions.vercel.app/conta.html
     about: Gerencie seu plano e seus computadores na página da conta.

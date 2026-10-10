@@ -6,8 +6,8 @@ Vasculha o computador inteiro, mostra o tamanho real de cada programa e remove t
 Primeiro app da <b>Coube Solutions</b>.</p>
 
 <p align="center">
-  <a href="https://github.com/srlorenzos/coube-desinstalador/releases/latest"><b>⬇ Baixar grátis</b></a> ·
-  <a href="https://coube-solutions.netlify.app/#precos">Planos</a> ·
+  <a href="https://github.com/srlorenzos/coube-desinstalador/releases/latest/download/Coube-Desinstalador-Setup.exe"><b>⬇ Baixar grátis</b></a> ·
+  <a href="https://coube-solutions.vercel.app/#precos">Planos</a> ·
   <a href="https://github.com/srlorenzos/coube-desinstalador/issues/new/choose">Suporte</a> ·
   <a href="CHANGELOG.md">Novidades</a>
 </p>
@@ -66,3 +66,7 @@ Na primeira execução, o Windows pode mostrar *"O Windows protegeu o computador
 ## Suporte
 
 Achou um problema ou tem uma ideia? [Abra uma issue](https://github.com/srlorenzos/coube-desinstalador/issues/new/choose).
+
+## Outros apps Coube
+
+[Turbo](https://github.com/srlorenzos/coube-turbo) · [Atualiza](https://github.com/srlorenzos/coube-atualiza) · [Escudo](https://github.com/srlorenzos/coube-escudo) · [Drivers](https://github.com/srlorenzos/coube-drivers)

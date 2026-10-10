@@ -1,5 +1,10 @@
 # Novidades
 
+## v2.0.1 (10 de outubro de 2026)
+
+- Conta e licença agora no novo servidor da Coube Solutions (coube-solutions.vercel.app).
+- Links de download fixos (sempre a versão mais nova).
+
 ## v2.0.0 (9 de outubro de 2026): agora é Coube Desinstalador
 
 - **Novo nome:** o Vassoura virou Coube Desinstalador, o primeiro app da Coube Solutions. A sua conta continua valendo.
